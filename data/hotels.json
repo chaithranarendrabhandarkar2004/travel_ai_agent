@@ -1,0 +1,62 @@
+[
+  {
+    "city": "Goa",
+    "name": "Sea View Resort",
+    "price": 3200,
+    "rating": 4.5
+  },
+  {
+    "city": "Goa",
+    "name": "Beach Paradise Villa",
+    "price": 2800,
+    "rating": 4.2
+  },
+  {
+    "city": "Srinagar",
+    "name": "The Grand Palace Dal Lake",
+    "price": 6500,
+    "rating": 4.8
+  },
+  {
+    "city": "Srinagar",
+    "name": "Snow Heritage Homestay",
+    "price": 3500,
+    "rating": 4.4
+  },
+  {
+    "city": "Jaipur",
+    "name": "Rajputana Palace Resort",
+    "price": 4500,
+    "rating": 4.7
+  },
+  {
+    "city": "Jaipur",
+    "name": "Pink City Heritage Inn",
+    "price": 2200,
+    "rating": 4.1
+  },
+  {
+    "city": "Manali",
+    "name": "Himalayan View Retreat",
+    "price": 3800,
+    "rating": 4.6
+  },
+  {
+    "city": "Manali",
+    "name": "Snow Pine Cottages",
+    "price": 2500,
+    "rating": 4.3
+  },
+  {
+    "city": "Kerala",
+    "name": "Backwater Houseboats & Spa",
+    "price": 5500,
+    "rating": 4.7
+  },
+  {
+    "city": "Kerala",
+    "name": "Green Meadows Hill Resort",
+    "price": 3000,
+    "rating": 4.3
+  }
+]

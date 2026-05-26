@@ -1,0 +1,19 @@
+[project]
+name = "travel-ai-agent"
+version = "0.1.0"
+description = "AI Travel Planner"
+requires-python = ">=3.11"
+
+dependencies = [
+    "streamlit",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "openai",
+    "requests",
+    "python-dotenv",
+    "pandas",
+    "groq",
+    "langchain-groq>=1.1.2",
+    "dotenv>=0.9.9",
+]

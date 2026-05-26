@@ -1,0 +1,116 @@
+[
+  {
+    "city": "Goa",
+    "place": "Baga Beach",
+    "type": "Beach",
+    "rating": 4.7
+  },
+  {
+    "city": "Goa",
+    "place": "Calangute Beach",
+    "type": "Beach",
+    "rating": 4.5
+  },
+  {
+    "city": "Goa",
+    "place": "Old Goa Churches",
+    "type": "Heritage",
+    "rating": 4.6
+  },
+  {
+    "city": "Goa",
+    "place": "Dudhsagar Waterfalls",
+    "type": "Nature",
+    "rating": 4.8
+  },
+  {
+    "city": "Srinagar",
+    "place": "Dal Lake (Shikara Ride)",
+    "type": "Nature",
+    "rating": 4.9
+  },
+  {
+    "city": "Srinagar",
+    "place": "Shalimar Bagh Mughal Garden",
+    "type": "Heritage",
+    "rating": 4.7
+  },
+  {
+    "city": "Srinagar",
+    "place": "Gulmarg Gondola Ride",
+    "type": "Adventure",
+    "rating": 4.8
+  },
+  {
+    "city": "Jaipur",
+    "place": "Amber Palace & Fort",
+    "type": "Heritage",
+    "rating": 4.8
+  },
+  {
+    "city": "Jaipur",
+    "place": "Hawa Mahal (Palace of Winds)",
+    "type": "Heritage",
+    "rating": 4.7
+  },
+  {
+    "city": "Jaipur",
+    "place": "Jantar Mantar Observatory",
+    "type": "Heritage",
+    "rating": 4.6
+  },
+  {
+    "city": "Jaipur",
+    "place": "Chokhi Dhani Cultural Village",
+    "type": "Culture",
+    "rating": 4.5
+  },
+  {
+    "city": "Manali",
+    "place": "Solang Valley",
+    "type": "Adventure",
+    "rating": 4.8
+  },
+  {
+    "city": "Manali",
+    "place": "Hadimba Temple",
+    "type": "Heritage",
+    "rating": 4.6
+  },
+  {
+    "city": "Manali",
+    "place": "Rohtang Pass (Snow point)",
+    "type": "Nature",
+    "rating": 4.9
+  },
+  {
+    "city": "Manali",
+    "place": "Jogini Waterfalls Trek",
+    "type": "Adventure",
+    "rating": 4.7
+  },
+  {
+    "city": "Kerala",
+    "place": "Alleppey Backwaters Houseboat",
+    "type": "Nature",
+    "rating": 4.9
+  },
+  {
+    "city": "Kerala",
+    "place": "Munnar Tea Gardens",
+    "type": "Nature",
+    "rating": 4.8
+  },
+  {
+    "city": "Kerala",
+    "place": "Eravikulam National Park",
+    "type": "Wildlife",
+    "rating": 4.6
+  },
+  {
+    "city": "Kerala",
+    "place": "Varkala Cliff Beach",
+    "type": "Beach",
+    "rating": 4.7
+  }
+]
