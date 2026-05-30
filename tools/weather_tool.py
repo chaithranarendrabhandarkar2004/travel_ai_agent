@@ -2,7 +2,6 @@ import requests
 
 
 def get_weather(destination):
-    # Mapping cities to coordinates
     city_coords = {
         "goa": {"lat": 15.2993, "lon": 74.1240},
         "srinagar": {"lat": 34.0837, "lon": 74.7973},
@@ -23,4 +22,4 @@ def get_weather(destination):
         response = requests.get(url, timeout=10)
         return response.json()
     except Exception as e:
-        return {"error": str(e)}
+        return {"error": str(e)}
