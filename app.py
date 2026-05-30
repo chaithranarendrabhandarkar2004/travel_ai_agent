@@ -2,7 +2,6 @@ import streamlit as st
 import json
 from agent.travel_agent import generate_trip
 
-# Set page config
 st.set_page_config(
     page_title="Vagabond - AI Travel Planner",
     page_icon="✈️",
@@ -10,7 +9,6 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom Premium Styling
 st.markdown("""
 <style>
     /* Google Fonts */
@@ -147,21 +145,16 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Load list of cities dynamically from JSON
 try:
     with open("data/flights.json", "r") as f:
         flights_data = json.load(f)
     sources = sorted(list(set(flight["source"] for flight in flights_data)))
     destinations = sorted(list(set(flight["destination"] for flight in flights_data)))
 except Exception:
-    # Fallback to robust lists if read fails
     sources = ["Bangalore", "Chennai", "Delhi", "Kolkata", "Mumbai"]
-    destinations = ["Goa", "Jaipur", "Kerala", "Manali", "Srinagar"]
-
-# App Container
+    destinations = ["Goa", "Jaipur", "Kerala", "Manali", "Srinagar"
 st.markdown('<div class="main-container">', unsafe_allow_html=True)
 
-# Premium Header
 st.markdown("""
 <div class="header-card">
     <h1>VAGABOND</h1>
@@ -169,7 +162,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Glassmorphic Input Form
 st.markdown('<div class="input-card">', unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([2, 2, 1])
@@ -199,7 +191,6 @@ with col3:
 
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Action Trigger
 if st.button("Generate Bespoke Itinerary"):
     if source and destination:
         if source == destination:
@@ -215,7 +206,6 @@ if st.button("Generate Bespoke Itinerary"):
                     
                     st.success("🎉 Your Personalized Itinerary is Ready!")
                     
-                    # Beautifully display the markdown result in the custom styled container
                     st.markdown('<div class="output-card">', unsafe_allow_html=True)
                     st.markdown(result)
                     st.markdown('</div>', unsafe_allow_html=True)
