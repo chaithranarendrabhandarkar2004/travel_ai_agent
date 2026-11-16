@@ -2,6 +2,10 @@
 
 An AI-powered travel planning application built with Python and Streamlit. Vagabond helps users generate personalized travel itineraries by selecting their source city, destination city, and trip duration.
 
+## 📸 Application Preview
+
+![Vagabond AI Travel Planner](assets/vagabond-preview.png)
+
 ## 🌟 Features
 
 - Select a source city and destination city.
